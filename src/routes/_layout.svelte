@@ -17,13 +17,15 @@
   .active {
     margin-left: 250px;
   }
+  .content {
+    width: 100%;
+    transition: 0.5s margin cubic-bezier(0.22, 1, 0.36, 1);
+  }
 </style>
 
 <MDBRow class="wrapper">
   <Nav {segment} {isOpen} />
-  <div
-    style="width: 100%; transition: 0.5s margin linear;"
-    class:active={isOpen}>
+  <div class="content" class:active={isOpen}>
     <MDBNavbar color="primary-color" dark expand="md">
       <MDBBtn color="light-blue" on:click={() => (isOpen = !isOpen)}>
         <MDBIcon fas icon="align-justify" />
