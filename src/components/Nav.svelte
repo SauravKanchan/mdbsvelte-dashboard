@@ -1,10 +1,9 @@
 <script>
   export let segment;
   export let isOpen;
-  import {fly} from 'svelte/transition';
-  import MDBNavLink from 'mdbsvelte/src/MDBNavLink.svelte';
-
-
+  import { fly } from "svelte/transition";
+  import { linear } from "eases-jsnext";
+  import MDBNavLink from "mdbsvelte/src/MDBNavLink.svelte";
 </script>
 
 <style>
@@ -16,8 +15,12 @@
     position: fixed;
   }
 </style>
+
+<!-- transition:fly={{ x: -250, y: 0, duration: 500 }} -->
 {#if isOpen}
-  <nav class="sidebar bg-dark  p-5" transition:fly="{{ x:-250, y: 0, duration: 500 }}">
+  <nav
+    class="sidebar bg-dark p-5"
+    transition:fly={{ x: -250, y: 0, duration: 500, easing: linear }}>
     <MDBNavLink class="text-white" active href="/">Home</MDBNavLink>
     <MDBNavLink class="text-white" href="/about">About</MDBNavLink>
     <MDBNavLink class="text-white" href="/blog">Blog</MDBNavLink>
