@@ -4,6 +4,7 @@
   import MDBRow from 'mdbsvelte/src/MDBRow.svelte';
   import MDBNavbar from 'mdbsvelte/src/MDBNavbar.svelte'
   import MDBNavbarBrand from 'mdbsvelte/src/MDBNavbarBrand.svelte'
+  import MDBIcon from 'mdbsvelte/src/MDBIcon.svelte'
   import MDBBtn from 'mdbsvelte/src/MDBBtn.svelte'
   import MDBNavbarNav from 'mdbsvelte/src/MDBNavbarNav.svelte'
 
@@ -21,7 +22,9 @@
   <Nav {segment} {isOpen}/>
   <div style="width: 100%" class:active={isOpen}>
     <MDBNavbar color="primary-color" dark expand="md">
-      <MDBBtn color="light-blue" on:click={ ()=>isOpen = !isOpen}/>
+      <MDBBtn color="light-blue" on:click={ ()=>isOpen = !isOpen} >
+        <MDBIcon fas icon="align-justify" />
+      </MDBBtn>
       <MDBNavbarNav right>
         <MDBNavbarBrand>
           <strong class="white-text">Admin</strong>
