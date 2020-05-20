@@ -15,7 +15,7 @@
       <img alt="MDB React Logo" class="img-fluid" src="mdbsvelte.png"/>
     </a>
     <MDBListGroup class="list-group-flush">
-      <MDBNavLink exact={true} href="/" active={segment === undefined} activeClassName="activeClass">
+      <MDBNavLink href="/" active={segment === undefined} activeClassName="activeClass">
         <MDBListGroupItem>
           <MDBIcon icon="chart-pie" class="mr-3"/>
           Dashboard
