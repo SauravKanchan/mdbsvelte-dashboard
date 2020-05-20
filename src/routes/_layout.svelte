@@ -19,5 +19,7 @@
 <div class="flexible-content">
   <TopNavigation />
   <SideNavigation {segment} {isOpen} />
-  <slot />
+  <div class="p-5" id="content">
+    <slot />
+  </div>
 </div>
