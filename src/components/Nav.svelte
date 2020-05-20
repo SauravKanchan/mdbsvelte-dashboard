@@ -1,31 +1,46 @@
 <script>
   export let segment;
-  export let isOpen;
-  import { fly } from "svelte/transition";
-  import { quintOut } from "eases-jsnext";
-  import MDBNavLink from "mdbsvelte/src/MDBNavLink.svelte";
-</script>
+  export let isOpen = true;
 
-<style>
-  .sidebar {
-    z-index: 100;
-    position: fixed;
-    min-width: 250px;
-    max-width: 250px;
-    min-height: 100vh;
-    left: -250px;
-    transition: 0.5s all cubic-bezier(0.22, 1, 0.36, 1);
-  }
-  .sidebar-open {
-    left: 0;
-  }
-</style>
+  import MDBListGroup from "mdbsvelte/src/MDBListGroup.svelte";
+  import MDBListGroupItem from "mdbsvelte/src/MDBListGroupItem.svelte";
+  import MDBIcon from "mdbsvelte/src/MDBIcon.svelte";
+  import MDBNavLink from "mdbsvelte/src/MDBNavLink.svelte";
+
+</script>
 
 <nav class="sidebar bg-dark p-5" class:sidebar-open={isOpen}>
   {#if isOpen}
-    <MDBNavLink class="text-white" active href="/">Home</MDBNavLink>
-    <MDBNavLink class="text-white" href="/about">About</MDBNavLink>
-    <MDBNavLink class="text-white" href="/blog">Blog</MDBNavLink>
+    <div class="sidebar-fixed position-fixed">
+      <a href="#!" class="logo-wrapper waves-effect">
+        <img alt="MDB React Logo" class="img-fluid" src="mdbsvelte.png"/>
+      </a>
+      <MDBListGroup class="list-group-flush">
+        <MDBNavLink exact={true} href="/" active={segment === undefined} activeClassName="activeClass">
+          <MDBListGroupItem>
+            <MDBIcon icon="chart-pie" class="mr-3"/>
+            Dashboard
+          </MDBListGroupItem>
+        </MDBNavLink>
+        <MDBNavLink href="/profile" active={segment === "profile"} activeClassName="activeClass">
+          <MDBListGroupItem>
+            <MDBIcon icon="user" class="mr-3"/>
+            Profile
+          </MDBListGroupItem>
+        </MDBNavLink>
+        <MDBNavLink href="/tables" active={segment === "tables"} activeClassName="activeClass">
+          <MDBListGroupItem>
+            <MDBIcon icon="table" class="mr-3"/>
+            Tables
+          </MDBListGroupItem>
+        </MDBNavLink>
+        <MDBNavLink href="/maps" active={segment === "maps"} activeClassName="activeClass">
+          <MDBListGroupItem>
+            <MDBIcon icon="map" class="mr-3"/>
+            Maps
+          </MDBListGroupItem>
+        </MDBNavLink>
+      </MDBListGroup>
+    </div>
   {/if}
-
 </nav>

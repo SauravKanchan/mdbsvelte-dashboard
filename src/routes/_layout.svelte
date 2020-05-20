@@ -7,8 +7,6 @@
   import MDBIcon from "mdbsvelte/src/MDBIcon.svelte";
   import MDBBtn from "mdbsvelte/src/MDBBtn.svelte";
   import MDBNavbarNav from "mdbsvelte/src/MDBNavbarNav.svelte";
-
-  import { fly } from "svelte/transition";
   let isOpen = true;
   export let segment;
 </script>
