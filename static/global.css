@@ -121,11 +121,11 @@ main {
 	margin-top: -20px;
 }
 
-.cascading-admin-card .admin-up .fa {
+.cascading-admin-card .admin-up .fas {
 	box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.2), 0 2px 13px 0 rgba(0, 0, 0, 0.19);
 }
 
-.cascading-admin-card .admin-up .fa {
+.cascading-admin-card .admin-up .fas {
 	padding: 1.7rem;
 	font-size: 2rem;
 	color: #fff;

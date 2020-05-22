@@ -11,7 +11,7 @@
   <MDBCol xl="3" md="6" class="mb-r">
     <MDBCard class="cascading-admin-card">
       <div class="admin-up">
-        <MDBIcon far icon="money-bill-alt" class="primary-color"/>
+        <MDBIcon fas icon="money-bill-alt" class="primary-color"/>
         <div class="data">
           <p>SALES</p>
           <h4>
@@ -31,7 +31,7 @@
   <MDBCol xl="3" md="6" class="mb-r">
     <MDBCard class="cascading-admin-card">
       <div class="admin-up">
-        <MDBIcon far icon="chart-line" class="warning-color"/>
+        <MDBIcon fas icon="chart-line" class="warning-color"/>
         <div class="data">
           <p>SUBSCRIPTIONS</p>
           <h4>
@@ -51,7 +51,7 @@
   <MDBCol xl="3" md="6" class="mb-r">
     <MDBCard class="cascading-admin-card">
       <div class="admin-up">
-        <MDBIcon far icon="chart-pie" class="light-blue lighten-1"/>
+        <MDBIcon fas icon="chart-pie" class="light-blue lighten-1"/>
         <div class="data">
           <p>TRAFFIC</p>
           <h4>
@@ -71,7 +71,7 @@
   <MDBCol xl="3" md="6" class="mb-r">
     <MDBCard class="cascading-admin-card">
       <div class="admin-up">
-        <MDBIcon far icon="chart-bar" class="red accent-2"/>
+        <MDBIcon fas icon="chart-bar" class="red accent-2"/>
         <div class="data">
           <p>ORGANIC TRAFFIC</p>
           <h4>
