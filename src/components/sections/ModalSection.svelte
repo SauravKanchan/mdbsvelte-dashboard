@@ -31,7 +31,7 @@
   }
 
 </script>
-<MDBCard class="mb-4">
+<MDBCard class="mb-5">
   <MDBCardHeader>Modals</MDBCardHeader>
   <MDBCardBody>
     <h4 class="mb-5 mt-4 dark-grey-text text-center font-bold"><strong>Position & Sizes</strong></h4>

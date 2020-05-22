@@ -30,13 +30,13 @@
         <MDBNavLink to="#">Home</MDBNavLink>
       </MDBNavItem>
       <MDBNavItem>
-        <a rel="noopener noreferrer" class="nav-link Ripple-parent" href="https://mdbootstrap.com/docs/react/" target="_blank">About MDB</a>
+        <a rel="noopener noreferrer" class="nav-link Ripple-parent" href="https://saurav.tech/mdbsvelte" target="_blank">About MDB</a>
       </MDBNavItem>
       <MDBNavItem>
-        <a rel="noopener noreferrer" class="nav-link Ripple-parent" href="https://mdbootstrap.com/docs/react/getting-started/download/" target="_blank">Free download</a>
+        <a rel="noopener noreferrer" class="nav-link Ripple-parent" href="https://saurav.tech/mdbsvelte" target="_blank">Free download</a>
       </MDBNavItem>
       <MDBNavItem>
-        <a rel="noopener noreferrer"  class="nav-link Ripple-parent" href="https://mdbootstrap.com/bootstrap-tutorial/" target="_blank">Free tutorials</a>
+        <a rel="noopener noreferrer"  class="nav-link Ripple-parent" href="https://saurav.tech/mdbsvelte" target="_blank">Free tutorials</a>
       </MDBNavItem>
     </MDBNavbarNav>
     <MDBNavbarNav right>
@@ -47,10 +47,10 @@
         <a class="nav-link navbar-link" rel="noopener noreferrer" target="_blank" href="https://twitter.com/mdbootstrap"><MDBIcon fab icon="twitter" /></a>
       </MDBNavItem>
       <MDBNavItem>
-        <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>MDB GitHub</a>
+        <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://github.com/SauravKanchan/mdbsvelte" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>MDB GitHub</a>
       </MDBNavItem>
       <MDBNavItem>
-        <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://mdbootstrap.com/products/react-ui-kit/" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>Go Pro</a>
+        <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://github.com/SauravKanchan/mdbsvelte" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>Go Pro</a>
       </MDBNavItem>
     </MDBNavbarNav>
   </MDBCollapse>

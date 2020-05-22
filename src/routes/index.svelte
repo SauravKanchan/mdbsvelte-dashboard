@@ -1,5 +1,6 @@
 <script>
   import AdminCardSection1 from '../components/sections/AdminCardSection1.svelte'
+  import AdminCardSection2 from '../components/sections/AdminCardSection2.svelte'
   import BreadcrumbSection from '../components/sections/BreadcrumbSection.svelte'
   import ChartSection1 from '../components/sections/ChartSection1.svelte'
   import ChartSection2 from '../components/sections/ChartSection2.svelte'
@@ -14,4 +15,5 @@
   <TableSection />
   <ChartSection2 />
   <ModalSection />
+  <AdminCardSection2 />
 </MDBContainer>

@@ -1,6 +1,7 @@
 <script>
   import SideNavigation from "../components/SideNavigation.svelte";
   import TopNavigation from "../components/TopNavigation.svelte";
+  import Footer from "../components/Footer.svelte";
 
   let isOpen = true;
   export let segment;
@@ -22,4 +23,5 @@
   <div class="p-5" id="content">
     <slot />
   </div>
+  <Footer />
 </div>
