@@ -9,6 +9,8 @@
   import MDBCardText from 'mdbsvelte/src/MDBCardText.svelte'
   import MDBBtn from 'mdbsvelte/src/MDBBtn.svelte'
   import MDBCardFooter from 'mdbsvelte/src/MDBCardFooter.svelte'
+  import MDBMask from 'mdbsvelte/src/MDBMask.svelte'
+  import MDBView from 'mdbsvelte/src/MDBView.svelte'
 
 </script>
 <MDBRow class="justify-content-center">
@@ -33,10 +35,10 @@
       <MDBRow class="d-flex justify-content-center">
         <MDBCol lg="6" xl="5" class="mb-3">
           <MDBCard class="d-flex mb-5">
-<!--            <MDBView>-->
-<!--              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-profile-page.jpg" alt="Project" class="img-fluid"/>-->
-<!--              <MDBMask overlay="white-slight"/>-->
-<!--            </MDBView>-->
+            <MDBView>
+              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-profile-page.jpg" alt="Project" class="img-fluid"/>
+              <MDBMask overlay="white-slight"/>
+            </MDBView>
             <MDBCardBody>
               <MDBCardTitle class="font-bold mb-3">
                 <strong>Project name</strong>
@@ -55,10 +57,10 @@
         </MDBCol>
         <MDBCol lg="6" xl="5" class="mb-3">
           <MDBCard class="d-flex mb-5">
-<!--            <MDBView>-->
-<!--              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-signup.jpg" alt="Project" class="img-fluid"/>-->
-<!--              <MDBMask overlay="white-slight"/>-->
-<!--            </MDBView>-->
+            <MDBView>
+              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-signup.jpg" alt="Project" class="img-fluid"/>
+              <MDBMask overlay="white-slight"/>
+            </MDBView>
             <MDBCardBody>
               <MDBCardTitle class="font-bold mb-3">
                 <strong>Project name</strong>
@@ -79,10 +81,10 @@
       <MDBRow class="d-flex justify-content-center">
         <MDBCol lg="6" xl="5" class="mb-3">
           <MDBCard class="d-flex mb-5">
-<!--            <MDBView>-->
-<!--              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-profile-page.jpg" alt="Project" class="img-fluid"/>-->
-<!--              <MDBMask overlay="white-slight"/>-->
-<!--            </MDBView>-->
+            <MDBView>
+              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-profile-page.jpg" alt="Project" class="img-fluid"/>
+              <MDBMask overlay="white-slight"/>
+            </MDBView>
             <MDBCardBody>
               <MDBCardTitle class="font-bold mb-3">
                 <strong>Project name</strong>
@@ -102,8 +104,8 @@
         <MDBCol lg="6" xl="5" class="mb-3">
           <MDBCard class="d-flex mb-5">
             <view-wrapper>
-<!--              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-signup.jpg" alt="Project" class="img-fluid"/>-->
-<!--              <MDBMask overlay="white-slight"/>-->
+              <img src="https://mdbootstrap.com/img/Mockups/Horizontal/6-col/pro-signup.jpg" alt="Project" class="img-fluid"/>
+              <MDBMask overlay="white-slight"/>
             </view-wrapper>
             <MDBCardBody>
               <MDBCardTitle class="font-bold mb-3">
