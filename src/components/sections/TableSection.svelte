@@ -13,7 +13,7 @@
   <MDBCol md="6">
     <MDBCard>
       <MDBCardBody>
-        <MDBTable hover>
+        <MDBTable responsive hover>
           <MDBTableHead color="blue-grey lighten-4">
             <tr>
               <th>#</th>
@@ -49,7 +49,7 @@
   <MDBCol md="6" class="mb-4">
     <MDBCard>
       <MDBCardBody>
-        <MDBTable hover>
+        <MDBTable responsive hover>
           <MDBTableHead color="blue lighten-4">
             <tr>
               <th>#</th>

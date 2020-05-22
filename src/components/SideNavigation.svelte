@@ -42,12 +42,12 @@
         </MDBListGroupItem>
       </MDBNavLink>
       <MDBNavLink
-        href="/maps"
+        href="/forms"
         active={segment === 'maps'}
         activeClassName="activeClass">
         <MDBListGroupItem>
-          <MDBIcon icon="map" class="mr-3" />
-          <span>Maps</span>
+          <MDBIcon icon="file" class="mr-3" />
+          <span>Forms</span>
         </MDBListGroupItem>
       </MDBNavLink>
     </MDBListGroup>

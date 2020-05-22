@@ -18,7 +18,7 @@
       <MDBCardBody>
         <h3 class="mt-5 text-left"><strong>Basic examples</strong></h3>
         <p>Using the most basic table markup, here’s how .table-based tables look in Bootstrap. All table styles are inherited in Bootstrap 4, meaning any nested tables will be styled in the same manner as the parent.</p>
-        <MDBTable>
+        <MDBTable responsive>
           <MDBTableHead>
             <tr>
               <th>#</th>
@@ -50,7 +50,7 @@
         </MDBTable>
         <h3 class="mt-5 text-left"><strong>MDBTable head options</strong></h3>
         <p>To change a background-color of thead (or any other element) use our color classes. If you are going to use a dark background you should also consider white text (to provide a proper contrast) by adding .text-white class.</p>
-        <MDBTable>
+        <MDBTable responsive>
           <MDBTableHead color="primary-color" textWhite>
             <tr>
               <th>#</th>
@@ -80,7 +80,7 @@
             </tr>
           </MDBTableBody>
         </MDBTable>
-        <MDBTable>
+        <MDBTable responsive>
           <MDBTableHead color="pink">
             <tr>
               <th>#</th>
@@ -112,7 +112,7 @@
         </MDBTable>
         <h3 class="mt-5 text-left"><strong>Striped rows.</strong></h3>
         <p>Use prop striped to add zebra-striping to any table row within the table body</p>
-        <MDBTable striped>
+        <MDBTable responsive striped>
           <MDBTableHead>
             <tr>
               <th>#</th>
