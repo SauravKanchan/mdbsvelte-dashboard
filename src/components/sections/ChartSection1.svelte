@@ -69,53 +69,53 @@
   }
 
 </script>
-<MDBRow className="mb-4">
-  <MDBCol md="8"className="mb-4">
-    <MDBCard className="mb-4">
+<MDBRow class="mb-4">
+  <MDBCol md="8"class="mb-4">
+    <MDBCard class="mb-4">
       <MDBCardBody>
         <Bar data={dataBar} height={500} options={barChartOptions} />
       </MDBCardBody>
     </MDBCard>
   </MDBCol>
-  <MDBCol md="4" className="mb-4">
-    <MDBCard className="mb-4">
+  <MDBCol md="4" class="mb-4">
+    <MDBCard class="mb-4">
       <MDBCardHeader>Pie chart</MDBCardHeader>
       <MDBCardBody>
         <Pie data={dataPie} height={300} options={{responsive: true}} />
       </MDBCardBody>
     </MDBCard>
-    <MDBCard className="mb-4">
+    <MDBCard class="mb-4">
       <MDBCardBody>
-        <MDBListGroup className="list-group-flush">
+        <MDBListGroup class="list-group-flush">
           <MDBListGroupItem>
             Sales
-            <MDBBadge color="success-color" pill className="float-right">
+            <MDBBadge color="success-color" pill class="float-right">
               22%
-              <MDBIcon icon="arrow-up" className="ml-1"/>
+              <MDBIcon icon="arrow-up" class="ml-1"/>
             </MDBBadge>
           </MDBListGroupItem>
           <MDBListGroupItem>
             Traffic
-            <MDBBadge color="danger-color" pill className="float-right">
+            <MDBBadge color="danger-color" pill class="float-right">
               5%
-              <MDBIcon icon="arrow-down" className="ml-1"/>
+              <MDBIcon icon="arrow-down" class="ml-1"/>
             </MDBBadge>
           </MDBListGroupItem>
           <MDBListGroupItem>
             Orders
-            <MDBBadge color="primary-color" pill className="float-right">
+            <MDBBadge color="primary-color" pill class="float-right">
               14
             </MDBBadge>
           </MDBListGroupItem>
           <MDBListGroupItem>
             Issues
-            <MDBBadge color="primary-color" pill className="float-right">
+            <MDBBadge color="primary-color" pill class="float-right">
               123
             </MDBBadge>
           </MDBListGroupItem>
           <MDBListGroupItem>
             Messages
-            <MDBBadge color="primary-color" pill className="float-right">
+            <MDBBadge color="primary-color" pill class="float-right">
               8
             </MDBBadge>
           </MDBListGroupItem>
