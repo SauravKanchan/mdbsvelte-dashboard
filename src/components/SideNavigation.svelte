@@ -43,7 +43,7 @@
       </MDBNavLink>
       <MDBNavLink
         href="/forms"
-        active={segment === 'maps'}
+        active={segment === 'forms'}
         activeClassName="activeClass">
         <MDBListGroupItem>
           <MDBIcon icon="file" class="mr-3" />

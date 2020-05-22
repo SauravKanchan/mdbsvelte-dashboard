@@ -179,6 +179,7 @@ main {
 .footer {
   margin-bottom: 4rem;
 }
+
 @media (max-width: 1199.98px) {
   .sidebar-fixed {
     width: 100vw;
@@ -220,16 +221,24 @@ main {
 }
 
 @media (max-width: 576px) {
+  .sidebar-fixed {
+    width: 100vw;
+  }
   .sidebar-fixed li {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
+    width: 100%;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+  }
+  .sidebar-fixed ul a {
+    padding: 0.25rem;
   }
   .sidebar-fixed li i {
-    width: 100%;
-    transform: translate(25%);
+    transform: translate(50%, 0);
   }
   .sidebar-fixed li span {
     display: none;
