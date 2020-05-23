@@ -47,7 +47,7 @@
         <a class="nav-link navbar-link" rel="noopener noreferrer" target="_blank" href="https://twitter.com/mdbootstrap"><MDBIcon fab icon="twitter" /></a>
       </MDBNavItem>
       <MDBNavItem>
-        <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://github.com/SauravKanchan/mdbsvelte" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>MDB GitHub</a>
+        <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://github.com/SauravKanchan/mdbsvelte-dashboard" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>MDB GitHub</a>
       </MDBNavItem>
       <MDBNavItem>
         <a class="border border-light rounded mr-1 nav-link Ripple-parent" rel="noopener noreferrer" href="https://github.com/SauravKanchan/mdbsvelte" target="_blank"><MDBIcon fab icon="github" class="mr-2"/>Go Pro</a>
