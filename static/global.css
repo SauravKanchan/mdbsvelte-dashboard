@@ -184,7 +184,7 @@ main {
   .sidebar-fixed {
     width: 100vw;
     height: 4rem;
-    position: fixed;
+    position: sticky;
     top: 100%;
     transform: translate(0, -100%);
     left: 0;
