@@ -20,7 +20,7 @@
 <div class="flexible-content">
   <TopNavigation />
   <SideNavigation {segment} {isOpen} />
-  <div class="p-5" id="content">
+  <div class="p-2 p-md-5" id="content">
     <slot />
   </div>
   <Footer />
