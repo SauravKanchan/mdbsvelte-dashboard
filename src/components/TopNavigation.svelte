@@ -19,7 +19,7 @@
 
 </script>
 
-<MDBNavbar class="flexible-navbar" light expand="md" scrolling>
+<MDBNavbar class="flexible-navbar" light expand="md">
   <MDBNavbarBrand href="/">
     <strong>MDB</strong>
   </MDBNavbarBrand>
